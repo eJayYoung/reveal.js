@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+			.slides .list li {
+				padding-top: 20px;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <h2>新员工转正述职报告</h2>
+                    <h5 style="padding-top: 40px;">述职部门：EWT大前端</h5>
+                    <h5>述职人：杨逸杰</h5>
+                </section>
+				<section>
+                    <h2 style="text-indent: -200px;">目录</h2>
+                    <ul class="list">
+                        <li>工作汇报</li>
+                        <li>工作体会</li>
+                        <li>工作规划</li>
+                    </ul>
+				</section>
+				<section>
+					<h2 style="text-align: left; float: left;">工作汇报</h2>
+					<div style="overflow: hidden;">
+						<ul class="list">
+							<li class="fragment" data-fragment-index="1">
+								业务方向
+								<ul>
+									<li class="fragment" data-fragment-index="3">武大活动页</li>
+									<li class="fragment" data-fragment-index="4">暑假专题</li>
+									<li class="fragment" data-fragment-index="5">OA日常迭代</li>
+								</ul>
+							</li>
+							<li class="fragment" data-fragment-index="2">
+								基建方向
+								<ul>
+									<li class="fragment" data-fragment-index="6">eui 组件库</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h2>
+						<a href="http://web.ewt360.com/community/WHURecruit2018pc/index/index.html" target="_blank">武大活动页</a>
+					</h2>
+					<ul class="list">
+						<li class="fragment" data-fragment-index="1">基于flex的自适应布局</li>
+						<li class="fragment" data-fragment-index="2">接入大数据埋点</li>
+					</ul>
+				</section>
+				<section>
+					<h2>
+						<a href="http://web.ewt360.com/pc_tifen/#/activity/summer/index" target="_blank">暑期专题</a>
+					</h2>
+					<ul class="list">
+						<li class="fragment" data-fragment-index="1">定制化流程</li>
+						<li class="fragment" data-fragment-index="2">基于redux的数据流管理</li>
+					</ul>
+				</section>
+				<section>
+					<h2>OA日常迭代</h2>
+					<ul class="list">
+						<li class="fragment" data-fragment-index="1"><a href="http://oa2017.235.mistong.com/#/path16/path39/path388" target="_blank">核对款项申请（财务）-- PC端</a></li>
+						<li class="fragment" data-fragment-index="2">市场部大会大屏展示 -- PC端</li>
+						<li class="fragment" data-fragment-index="3"><a href="http://oamobile2017.235.mistong.com/#/main/msg" target="_blank">消息中心 -- Mobile端</a></li>
+						<li class="fragment" data-fragment-index="4">签到打卡 -- Mobile端</li>
+					</ul>
+				</section>
+				<section>
+					<h2>eui组件库</h2>
+					<ul class="list">
+						<li class="fragment" data-fragment-index="1">基础架构设计优化</li>
+						<li class="fragment" data-fragment-index="2">eui-dialog</li>
+						<li class="fragment" data-fragment-index="3">eui-popover</li>
+					</ul>
+				</section>
+				<section>
+					<img src="eui.png"/>
+				</section>
+				<section>
+					<h2>eui 基础架构优化内容</h2>
+					<ul class="list">
+						<li class="fragment" data-fragment-index="1">
+							<a href="https://github.com/eJayYoung/blog/issues/1" target="_blank">开发规范</a>
+							<ul class="list">
+								<li class="fragment" data-fragment-index="4">强制规范 commit message, npm version 规范发布</li>
+							</ul>
+						</li>
+						<li class="fragment" data-fragment-index="2">
+							eui component template的瘦身
+							<ul class="list">
+								<li class="fragment" data-fragment-index="5">迁移webpack loader至 eui-cli</li>
+							</ul>
+						</li>
+						<li class="fragment" data-fragment-index="3">
+							eui component 打包优化
+							<ul class="list">
+								<li class="fragment" data-fragment-index="6">抽离css样式，打包压缩</li>
+								<li class="fragment" data-fragment-index="7">187K => 87k</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2 style="text-align: left; float: left;">工作体会</h2>
+					<div style="overflow: hidden;">
+						<ul class="list">
+							<li class="fragment" data-fragment-index="1">业务方向</li>
+							<li class="fragment" data-fragment-index="2">基建方向</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h2 style="text-align: left; float: left;">工作规划</h2>
+					<div style="overflow: hidden;">
+						<ul class="list">
+							<li class="fragment" data-fragment-index="1">
+								业务方向
+								<ul class="list">
+									<li class="fragment" data-fragment-index="4">OA重构</li>
+								</ul>
+							</li>
+							<li class="fragment" data-fragment-index="2">
+								基建方向
+								<ul class="list">
+									<li class="fragment" data-fragment-index="5">eui</li>
+									<li class="fragment" data-fragment-index="6">mst workflow</li>
+								</ul>
+							</li>
+							<li class="fragment" data-fragment-index="3">
+								个人成长
+								<ul class="list">
+									<li class="fragment" data-fragment-index="7">技术分享</li>
+									<li class="fragment" data-fragment-index="8">技术文章的沉淀</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h1 style="text-shadow: none; text-align: left;">THE END</h1>
+					<h2 style="margin-top: 100px; text-align: right;" class="fragment" data-fragment-index="1">Thanks</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                transition: 'convex',
+				dependencies: [
+					{ src: '../plugin/markdown/marked.js' },
+					{ src: '../plugin/markdown/markdown.js' },
+					{ src: '../plugin/notes/notes.js', async: true },
+					{ src: 'http://localhost:3001/socket.io/socket.io.js', async: true },
+					{ src: '../plugin/remote-control/remote.js', async: true },
+					{ src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
