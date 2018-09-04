@@ -97,7 +97,9 @@ module.exports = function(grunt) {
 					port: port,
 					base: root,
 					livereload: true,
-					open: true,
+					open: {
+						target: 'http://localhost:8000/ejay/promote.html',
+					},
 					useAvailablePort: true
 				}
 			}
